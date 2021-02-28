@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 120px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.price strike {
+  font-size: 20px;
+  font-style: bold;
+}
+.price i {
+  color: red;
+  font-size: 16px;
+  margin-left: 30%;
+  font-weight: 800;
+}
+.price2 strike {
+  font-size: 18px;
+  font-style: bold;
+}
+.price2 i {
+  color: red;
+  font-size: 16px;
+  margin-left: 10%;
+  font-weight: 800;
+}
+
+blink {
+  -webkit-animation: 2s linear infinite kedip; /* for Safari 4.0 - 8.0 */
+  animation: 2s linear infinite kedip;
+}
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes kedip {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes kedip {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+/* kode untuk huruf awal ------------------------ */
+.big-fonts {
+  float: left;
+  font-family: "Apple Chancery", cursive;
+  font-size: 30px;
+  line-height: 50px;
+  margin: -15px 3px;
+  position: relative;
+  text-shadow: 2px 2px 2px red;
+}
+
+.title {
+  float: center;
+  font-family: "Apple Chancery", cursive;
+  font-size: 30px;
+  line-height: 50px;
+  position: relative;
+  text-shadow: 2px 2px 2px red;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    padding-top: 10px;
+  }
+  body {
+    padding-top: 160px;
+  }
+  footer h3 {
+    font-size: 16px;
+  }
+  header .title {
+    font-size: 16px;
+    width: 100%;
+  }
+}
