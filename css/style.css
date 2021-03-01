@@ -27,17 +27,6 @@ body {
   float: right;
   font-weight: 800;
 }
-/* .price2 strike {
-  font-size: 18px;
-  font-style: bold;
-}
-.price2 i {
-  color: red;
-  font-size: 16px;
-  /* margin-left: 10%; */
-
-  font-weight: 800;
-} */
 
 blink {
   -webkit-animation: 2s linear infinite kedip; /* for Safari 4.0 - 8.0 */
